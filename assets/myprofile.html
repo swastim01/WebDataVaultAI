@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <script>
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            fontFamily: {
+              sans: ["Roboto", "sans-serif"],
+              body: ["Roboto", "sans-serif"],
+              mono: ["ui-monospace", "monospace"],
+            },
+          },
+          corePlugins: {
+            preflight: false,
+          },
+        };
+      </script>
+      
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
+  
+      <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+  
+      <link href="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/css/nucleo-icons.css" rel="stylesheet" />
+      <link href=" https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/css/nucleo-svg.css" rel="stylesheet" />
+  
+      <script src="https://unpkg.com/@popperjs/core@2"></script>
+      <link rel="stylesheet" href="./assets/css/theme.css">
+      <link rel="stylesheet" href="./assets/css/loopple/loopple.css">
+    <title>My Profile</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+ 
+<header class="text-gray-600 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    
+      <img src="MyBeautifulLogo.jpg" alt="Your Logo" width="40" height="40">
+      <span class="ml-3 text-xl"><a href="index.html">DataVaultAI</a></span>
+      <span class="ml-3 text-xs">Genius, One Block At A Time.</span>
+    </a>
+    </div>
+    
+      <hr>
+    <aside class="max-w-62.5 ease-nav-brand z-990 absolute inset-y-0 my-4 ml-4 block w-full -translate-x-full flex-wrap items-center justify-between overflow-y-auto rounded-2xl border-0 bg-white p-0 antialiased shadow-none transition-transform duration-200 xl:left-0 xl:translate-x-0 xl:bg-transparent text-slate-500" id="sidenav-main">
+        <div class="h-19.5">
+            <i class="absolute top-0 right-0 hidden p-4 opacity-50 cursor-pointer fas fa-times text-slate-400 xl:hidden" sidenav-close="" aria-hidden="true"></i>
+            <a class="block px-8 py-6 m-0 text-sm whitespace-nowrap text-slate-700" href="javascript:;">
+                <br>
+                
+                
+            </a>
+        </div>
+        
+
+        <br>
+        <br>
+        <br>
+       
+    </aside>
+    <div class="ease-soft-in-out xl:ml-68.5 relative h-full max-h-screen rounded-xl transition-all duration-200" id="panel">
+        <nav class="relative flex flex-wrap items-center justify-between px-0 py-2 mx-6 transition-all shadow-none duration-250 ease-soft-in rounded-2xl lg:flex-nowrap lg:justify-start" id="navbarTop" navbar-scroll="true">
+            <div class="flex items-center justify-between w-full px-4 py-1 mx-auto flex-wrap-inherit">
+                <nav>
+                    <ol class="flex flex-wrap pt-1 mr-12 bg-transparent rounded-lg sm:mr-16">
+                        <li class="text-sm leading-normal">
+                            <a class="opacity-50 text-slate-700" href="index.html">Home Page - DataVaultAI</a>
+                        </li>
+                        <li class="text-sm pl-2 capitalize leading-normal text-slate-700 before:float-left before:pr-2 before:text-gray-600 before:content-['/']" aria-current="page">Profile</li>
+                    </ol>
+                    
+                </nav>
+                <div class="flex items-center mt-2 grow sm:mt-0 sm:mr-6 md:mr-0 lg:flex lg:basis-auto">
+                    <div class="flex items-center md:ml-auto md:pr-4">
+                        <div class="relative flex flex-wrap items-stretch w-full transition-all rounded-lg ease-soft">
+                            <span class="text-sm ease-soft leading-5.6 absolute z-50 -ml-px flex h-full items-center whitespace-nowrap rounded-lg rounded-tr-none rounded-br-none border border-r-0 border-transparent bg-transparent py-2 px-2.5 text-center font-normal text-slate-500 transition-all">
+                                <i class="fas fa-search" aria-hidden="true"></i>
+                            </span>
+                            <input type="text" class="pl-8.75 text-sm focus:shadow-soft-primary-outline ease-soft w-1/100 leading-5.6 relative -ml-px block min-w-0 flex-auto rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 pr-3 text-gray-700 transition-all placeholder:text-gray-500 focus:border-fuchsia-300 focus:outline-none focus:transition-shadow" placeholder="            Type here...">
+                        </div>
+                    </div>
+                    <ul class="flex flex-row justify-end pl-0 mb-0 list-none md-max:w-full">
+                        <li class="flex items-center">
+                            <a href="../pages/sign-in.html" class="block px-0 py-2 text-sm font-semibold transition-all ease-nav-brand text-slate-500">
+                                <i class="fa fa-user sm:mr-1" aria-hidden="true"></i>
+                                <span class="hidden sm:inline"><a href="GetStarted.html">Sign In</a></span>
+                            </a>
+                        </li>
+                        <li class="flex items-center pl-4 xl:hidden">
+                            <a href="javascript:;" class="block p-0 text-sm transition-all ease-nav-brand text-slate-500" sidenav-trigger="">
+                                <div class="w-4.5 overflow-hidden">
+                                    <i class="ease-soft mb-0.75 relative block h-0.5 rounded-sm bg-slate-500 transition-all"></i>
+                                    <i class="ease-soft mb-0.75 relative block h-0.5 rounded-sm bg-slate-500 transition-all"></i>
+                                    <i class="ease-soft relative block h-0.5 rounded-sm bg-slate-500 transition-all"></i>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="flex items-center px-4">
+                            <a href="javascript:;" class="p-0 text-sm transition-all ease-nav-brand text-slate-500">
+                                <i fixed-plugin-button-nav="" class="cursor-pointer fa fa-cog" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="relative flex items-center pr-2">
+                            <p class="hidden transform-dropdown-show"></p>
+                            <a href="javascript:;" class="block p-0 text-sm transition-all ease-nav-brand text-slate-500" dropdown-trigger="" aria-expanded="false">
+                                <i class="cursor-pointer fa fa-bell" aria-hidden="true"></i>
+                            </a>
+                            <ul dropdown-menu="" class="text-sm transform-dropdown before:font-awesome before:leading-default before:duration-350 before:ease-soft lg:shadow-soft-3xl duration-250 min-w-44 before:sm:right-7.5 before:text-5.5 pointer-events-none absolute right-0 top-0 z-50 origin-top list-none rounded-lg border-0 border-solid border-transparent bg-white bg-clip-padding px-2 py-4 text-left text-slate-500 opacity-0 transition-all before:absolute before:right-2 before:left-auto before:top-0 before:z-50 before:inline-block before:font-normal before:text-white before:antialiased before:transition-all before:content-['\f0d8'] sm:-mr-6 lg:absolute lg:right-0 lg:left-auto lg:mt-2 lg:block lg:cursor-pointer">
+                                <li class="relative mb-2">
+                                    <a class="ease-soft py-1.2 clear-both block w-full whitespace-nowrap rounded-lg bg-transparent px-4 duration-300 hover:bg-gray-200 hover:text-slate-700 lg:transition-colors" href="javascript:;">
+                                        <div class="flex py-1">
+                                            <div class="my-auto">
+                                                <img src="../assets/img/team-2.jpg" class="inline-flex items-center justify-center mr-4 text-sm text-white h-9 w-9 max-w-none rounded-xl">
+                                            </div>
+                                            <div class="flex flex-col justify-center">
+                                                <h6 class="mb-1 text-sm font-normal leading-normal">
+                                                    <span class="font-semibold">New message</span> from Laur
+                                                </h6>
+                                                <p class="mb-0 text-xs leading-tight text-slate-400">
+                                                    <i class="mr-1 fa fa-clock" aria-hidden="true"></i> 13 minutes ago
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="relative mb-2">
+                                    <a class="ease-soft py-1.2 clear-both block w-full whitespace-nowrap rounded-lg px-4 transition-colors duration-300 hover:bg-gray-200 hover:text-slate-700" href="javascript:;">
+                                        <div class="flex py-1">
+                                            <div class="my-auto">
+                                                <img src="../assets/img/small-logos/logo-spotify.svg" class="inline-flex items-center justify-center mr-4 text-sm text-white bg-gradient-to-tl from-gray-900 to-slate-800 h-9 w-9 max-w-none rounded-xl">
+                                            </div>
+                                            <div class="flex flex-col justify-center">
+                                                <h6 class="mb-1 text-sm font-normal leading-normal">
+                                                    <span class="font-semibold">New album</span> by Travis Scott
+                                                </h6>
+                                                <p class="mb-0 text-xs leading-tight text-slate-400">
+                                                    <i class="mr-1 fa fa-clock" aria-hidden="true"></i> 1 day
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="relative">
+                                    <a class="ease-soft py-1.2 clear-both block w-full whitespace-nowrap rounded-lg px-4 transition-colors duration-300 hover:bg-gray-200 hover:text-slate-700" href="javascript:;">
+                                        <div class="flex py-1">
+                                            <div class="inline-flex items-center justify-center my-auto mr-4 text-sm text-white transition-all duration-200 ease-nav-brand bg-gradient-to-tl from-slate-600 to-slate-300 h-9 w-9 rounded-xl">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                    <title>credit-card</title>
+                                                    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                            <g transform="translate(1716.000000, 291.000000)">
+                                                                <g transform="translate(453.000000, 454.000000)">
+                                                                    <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
+                                                                    <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <div class="flex flex-col justify-center">
+                                                <h6 class="mb-1 text-sm font-normal leading-normal">Payment successfully completed</h6>
+                                                <p class="mb-0 text-xs leading-tight text-slate-400">
+                                                    <i class="mr-1 fa fa-clock" aria-hidden="true"></i> 2 days
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="w-full px-6 py-6 mx-auto loopple-min-height-78vh text-slate-500">
+            <div class="relative flex flex-col flex-auto min-w-0 p-4 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/80 bg-clip-border mb-4">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="flex-none w-auto max-w-full px-3">
+                        <div class="text-base ease-soft-in-out h-18.5 w-18.5 relative inline-flex items-center justify-center rounded-xl text-white transition-all duration-200">
+                            <br>
+                            <img src="johnsmith.jpg" alt="profile_image" class="w-full shadow-soft-sm rounded-xl" width="40" height="40">
+                        </div>
+                    </div>
+                    <div class="flex-none w-auto max-w-full px-3 my-auto">
+                        <div class="h-full">
+                            <h5 class="mb-1">John Smith</h5>
+                            <p class="mb-0 font-semibold leading-normal text-sm">User/ Joined one month ago</p>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-full px-3 mx-auto mt-4 sm:my-auto sm:mr-0 md:w-1/2 md:flex-none lg:w-4/12"></div>
+                </div>
+            </div>
+            <div class="w-full pb-6 mx-auto removable">
+                <div class="flex flex-wrap -mx-3">
+                    <div class="w-full max-w-full px-3 xl:w-4/12">
+                        <div class="relative flex flex-col h-full min-w-0 break-words bg-white border-0 shadow-soft-xl rounded-2xl bg-clip-border">
+                            <div class="p-4 pb-0 mb-0 bg-white border-b-0 rounded-t-2xl">
+                                <h6 class="mb-0">Platform Settings</h6>
+                            </div>
+                            <div class="flex-auto p-4">
+                                <h6 class="font-bold leading-tight uppercase text-xs text-slate-500">Account</h6>
+                                <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                                    <li class="relative block px-0 py-2 bg-white border-0 rounded-t-lg text-inherit">
+                                        <div class="min-h-6 mb-0.5 block pl-0">
+                                            <input id="follow" class="mt-0.54 rounded-10 duration-250 ease-soft-in-out after:rounded-circle after:shadow-soft-2xl after:duration-250 checked:after:translate-x-5.25 h-5 relative float-left ml-auto w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-slate-800/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-slate-800/95 checked:bg-slate-800/95 checked:bg-none checked:bg-right" type="checkbox" "="" checked="">
+							<label for=" follow" class="w-4/5 mb-0 ml-4 overflow-hidden font-normal cursor-pointer select-none text-sm text-ellipsis whitespace-nowrap text-slate-500">Email me when someone follows me</label>
+                                        </div>
+                                    </li>
+                                    <li class="relative block px-0 py-2 bg-white border-0 text-inherit">
+                                        <div class="min-h-6 mb-0.5 block pl-0">
+                                            <input id="answer" class="mt-0.54 rounded-10 duration-250 ease-soft-in-out after:rounded-circle after:shadow-soft-2xl after:duration-250 checked:after:translate-x-5.25 h-5 relative float-left ml-auto w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-slate-800/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-slate-800/95 checked:bg-slate-800/95 checked:bg-none checked:bg-right" type="checkbox">
+                                            <label for="answer" class="w-4/5 mb-0 ml-4 overflow-hidden font-normal cursor-pointer select-none text-sm text-ellipsis whitespace-nowrap text-slate-500">Email me when someone answers on my post</label>
+                                        </div>
+                                    </li>
+                                    <li class="relative block px-0 py-2 bg-white border-0 rounded-b-lg text-inherit">
+                                        <div class="min-h-6 mb-0.5 block pl-0">
+                                            <input id="mention" class="mt-0.54 rounded-10 duration-250 ease-soft-in-out after:rounded-circle after:shadow-soft-2xl after:duration-250 checked:after:translate-x-5.25 h-5 relative float-left ml-auto w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-slate-800/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-slate-800/95 checked:bg-slate-800/95 checked:bg-none checked:bg-right" type="checkbox" checked="">
+                                            <label for="mention" class="w-4/5 mb-0 ml-4 overflow-hidden font-normal cursor-pointer select-none text-sm text-ellipsis whitespace-nowrap text-slate-500">Email me when someone mentions me</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <h6 class="mt-6 font-bold leading-tight uppercase text-xs text-slate-500">Application</h6>
+                                <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                                    <li class="relative block px-0 py-2 bg-white border-0 rounded-t-lg text-inherit">
+                                        <div class="min-h-6 mb-0.5 block pl-0">
+                                            <input id="launches projects" class="mt-0.54 rounded-10 duration-250 ease-soft-in-out after:rounded-circle after:shadow-soft-2xl after:duration-250 checked:after:translate-x-5.25 h-5 relative float-left ml-auto w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-slate-800/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-slate-800/95 checked:bg-slate-800/95 checked:bg-none checked:bg-right" type="checkbox">
+                                            <label for="launches projects" class="w-4/5 mb-0 ml-4 overflow-hidden font-normal cursor-pointer select-none text-sm text-ellipsis whitespace-nowrap text-slate-500">New launches and projects</label>
+                                        </div>
+                                    </li>
+                                    <li class="relative block px-0 py-2 bg-white border-0 text-inherit">
+                                        <div class="min-h-6 mb-0.5 block pl-0">
+                                            <input id="product updates" class="mt-0.54 rounded-10 duration-250 ease-soft-in-out after:rounded-circle after:shadow-soft-2xl after:duration-250 checked:after:translate-x-5.25 h-5 relative float-left ml-auto w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-slate-800/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-slate-800/95 checked:bg-slate-800/95 checked:bg-none checked:bg-right" type="checkbox" checked="">
+                                            <label for="product updates" class="w-4/5 mb-0 ml-4 overflow-hidden font-normal cursor-pointer select-none text-sm text-ellipsis whitespace-nowrap text-slate-500">Monthly product updates</label>
+                                        </div>
+                                    </li>
+                                    <li class="relative block px-0 py-2 pb-0 bg-white border-0 rounded-b-lg text-inherit">
+                                        <div class="min-h-6 mb-0.5 block pl-0">
+                                            <input id="subscribe" class="mt-0.54 rounded-10 duration-250 ease-soft-in-out after:rounded-circle after:shadow-soft-2xl after:duration-250 checked:after:translate-x-5.25 h-5 relative float-left ml-auto w-10 cursor-pointer appearance-none border border-solid border-gray-200 bg-slate-800/10 bg-none bg-contain bg-left bg-no-repeat align-top transition-all after:absolute after:top-px after:h-4 after:w-4 after:translate-x-px after:bg-white after:content-[''] checked:border-slate-800/95 checked:bg-slate-800/95 checked:bg-none checked:bg-right" type="checkbox">
+                                            <label for="subscribe" class="w-4/5 mb-0 ml-4 overflow-hidden font-normal cursor-pointer select-none text-sm text-ellipsis whitespace-nowrap text-slate-500">Subscribe to newsletter</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-full px-3 lg-max:mt-6 xl:w-4/12 mb-4">
+                        <div class="relative flex flex-col h-full min-w-0 break-words bg-white border-0 shadow-soft-xl rounded-2xl bg-clip-border">
+                            <div class="p-4 pb-0 mb-0 bg-white border-b-0 rounded-t-2xl">
+                                <div class="flex flex-wrap -mx-3">
+                                    <div class="flex items-center w-full max-w-full px-3 shrink-0 md:w-8/12 md:flex-none">
+                                        <h6 class="mb-0">Profile Information</h6>
+                                    </div>
+                                    <div class="w-full max-w-full px-3 text-right shrink-0 md:w-4/12 md:flex-none">
+                                        <a href="javascript:;" data-target="tooltip_trigger" data-placement="top">
+                                            <i class="leading-normal fas fa-user-edit text-sm text-slate-400" aria-hidden="true"></i>
+                                        </a>
+                                        <div data-target="tooltip" class="px-2 py-1 text-center text-white bg-black rounded-lg text-sm hidden" role="tooltip" data-popper-placement="top" style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate(993px, -117px);"> Edit Profile <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']" data-popper-arrow="" style="position: absolute; left: 0px; transform: translate(0px, 0px);"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex-auto p-4">
+                                <p class="leading-normal text-sm">Hi, I’m John Smith, Decisions: If you can’t decide, the answer is no. If two equally difficult paths, choose the one more painful in the short term (pain avoidance is creating an illusion of equality).</p>
+                                <hr class="h-px my-6 bg-transparent bg-transparent bg-gradient-to-r from-transparent via-black/40 to-transparent">
+                                <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                                    <li class="relative block px-4 py-2 pt-0 pl-0 leading-normal bg-white border-0 rounded-t-lg text-sm text-inherit">
+                                        <strong class="text-slate-700">Full Name:</strong> &nbsp; John Smith
+                                    </li>
+                                    <li class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-sm text-inherit">
+                                        <strong class="text-slate-700">Mobile:</strong> &nbsp; (+91) 91XXX XXXXX
+                                    </li>
+                                    <li class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-sm text-inherit">
+                                        <strong class="text-slate-700">Email:</strong> &nbsp; JohnSmithxxx@mail.com
+                                    </li>
+                                    <li class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-sm text-inherit">
+                                        <strong class="text-slate-700">Location:</strong> &nbsp; Delhi, India
+                                    </li>
+                                    <li class="relative block px-4 py-2 pb-0 pl-0 bg-white border-0 border-t-0 rounded-b-lg text-inherit">
+                                        <strong class="leading-normal text-sm text-slate-700">Social:</strong> &nbsp; <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center text-blue-800 align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in bg-none" href="javascript:;">
+                                            <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in bg-none text-sky-600" href="javascript:;">
+                                            <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                        <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in bg-none text-sky-900" href="javascript:;">
+                                            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-full px-3 lg-max:mt-6 xl:w-4/12 mb-4">
+                        <div class="relative flex flex-col h-full min-w-0 break-words bg-white border-0 shadow-soft-xl rounded-2xl bg-clip-border">
+                            <div class="p-4 pb-0 mb-0 bg-white border-b-0 rounded-t-2xl">
+                                <h6 class="mb-0">Conversations</h6>
+                            </div>
+                            <div class="flex-auto p-4">
+                                <ul class="flex flex-col pl-0 mb-0 rounded-lg">
+                                    <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 rounded-t-lg text-inherit">
+                                        <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
+                                            <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/kal-visuals-square.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center">
+                                            <h6 class="mb-0 leading-normal text-sm">Sophie B.</h6>
+                                            <p class="mb-0 leading-tight text-xs">Hi! I need more information..</p>
+                                        </div>
+                                        <a class="inline-block py-3 pl-0 pr-4 mb-0 ml-auto font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in hover:scale-102 hover:active:scale-102 active:opacity-85 text-fuchsia-500 hover:text-fuchsia-800 hover:shadow-none active:scale-100" href="javascript:;">Reply</a>
+                                    </li>
+                                    <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 border-t-0 text-inherit">
+                                        <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
+                                            <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/marie.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center">
+                                            <h6 class="mb-0 leading-normal text-sm">Anne Marie</h6>
+                                            <p class="mb-0 leading-tight text-xs">Awesome work, can you..</p>
+                                        </div>
+                                        <a class="inline-block py-3 pl-0 pr-4 mb-0 ml-auto font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in hover:scale-102 hover:active:scale-102 active:opacity-85 text-fuchsia-500 hover:text-fuchsia-800 hover:shadow-none active:scale-100" href="javascript:;">Reply</a>
+                                    </li>
+                                    <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 border-t-0 text-inherit">
+                                        <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
+                                            <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/ivana-square.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center">
+                                            <h6 class="mb-0 leading-normal text-sm">Radhika Gupta</h6>
+                                            <p class="mb-0 leading-tight text-xs">About files I can..</p>
+                                        </div>
+                                        <a class="inline-block py-3 pl-0 pr-4 mb-0 ml-auto font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in hover:scale-102 hover:active:scale-102 active:opacity-85 text-fuchsia-500 hover:text-fuchsia-800 hover:shadow-none active:scale-100" href="javascript:;">Reply</a>
+                                    </li>
+                                    <li class="relative flex items-center px-0 py-2 mb-2 bg-white border-0 border-t-0 text-inherit">
+                                        <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
+                                            <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/team-4.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center">
+                                            <h6 class="mb-0 leading-normal text-sm">Krishna Rai</h6>
+                                            <p class="mb-0 leading-tight text-xs">Have a great afternoon..</p>
+                                        </div>
+                                        <a class="inline-block py-3 pl-0 pr-4 mb-0 ml-auto font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in hover:scale-102 hover:active:scale-102 active:opacity-85 text-fuchsia-500 hover:text-fuchsia-800 hover:shadow-none active:scale-100" href="javascript:;">Reply</a>
+                                    </li>
+                                    <li class="relative flex items-center px-0 py-2 bg-white border-0 border-t-0 rounded-b-lg text-inherit">
+                                        <div class="inline-flex items-center justify-center w-12 h-12 mr-4 text-white transition-all duration-200 text-base ease-soft-in-out rounded-xl">
+                                            <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/team-3.jpg" alt="kal" class="w-full shadow-soft-2xl rounded-xl">
+                                        </div>
+                                        <div class="flex flex-col items-start justify-center">
+                                            <h6 class="mb-0 leading-normal text-sm">Nick Daniel</h6>
+                                            <p class="mb-0 leading-tight text-xs">Hi! I need more information..</p>
+                                        </div>
+                                        <a class="inline-block py-3 pl-0 pr-4 mb-0 ml-auto font-bold text-center uppercase align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-xs ease-soft-in hover:scale-102 hover:active:scale-102 active:opacity-85 text-fuchsia-500 hover:text-fuchsia-800 hover:shadow-none active:scale-100" href="javascript:;">Reply</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer class="pt-4">
+            <div class="w-full px-6 mx-auto">
+                <div class="flex flex-wrap items-center -mx-3 lg:justify-between">
+                    <div class="w-full max-w-full px-3 mt-0 mb-6 shrink-0 lg:mb-0 lg:w-1/2 lg:flex-none">
+                        <div class="leading-normal text-center text-size-sm text-slate-500 lg:text-left">
+                            © 2023,
+                            DataVaultAI
+                        </div>
+                    </div>
+                    <div class="w-full max-w-full px-3 mt-0 shrink-0 lg:w-1/2 lg:flex-none">
+                        <ul class="flex flex-wrap justify-center pl-0 mb-0 list-none lg:justify-end">
+                            <li class="nav-item">
+                                <a href="#" class="block px-4 pt-0 pb-1 font-normal transition-colors ease-soft-in-out text-size-sm text-slate-500" target="_blank">DataVaultAI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="block px-4 pt-0 pb-1 font-normal transition-colors ease-soft-in-out text-size-sm text-slate-500" target="_blank">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="block px-4 pt-0 pb-1 font-normal transition-colors ease-soft-in-out text-size-sm text-slate-500" target="_blank">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="block px-4 pt-0 pb-1 pr-0 font-normal transition-colors ease-soft-in-out text-size-sm text-slate-500" target="_blank">License</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/js/plugins/chartjs.min.js"></script>
+
+    <script src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/js/plugins/perfect-scrollbar.min.js" async></script>
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/soft-ui-dashboard-tailwind/js/soft-ui-dashboard-tailwind.js" async></script>
+    <script>
+        if (document.querySelector(".chart-bars")) {
+        
+        	var chartsBars = document.querySelectorAll(".chart-bars");
+        
+        	chartsBars.forEach(function(chart) {
+        		new Chart(chart, {
+        			type: "bar",
+        			data: {
+        				labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        				datasets: [{
+        					label: "Sales",
+        					tension: 0.4,
+        					borderWidth: 0,
+        					borderRadius: 4,
+        					borderSkipped: false,
+        					backgroundColor: "#fff",
+        					data: [450, 200, 100, 220, 500, 100, 400, 230, 500],
+        					maxBarThickness: 6,
+        				}, ],
+        			},
+        			options: {
+        				responsive: true,
+        				maintainAspectRatio: false,
+        				plugins: {
+        					legend: {
+        						display: false,
+        					},
+        				},
+        				interaction: {
+        					intersect: false,
+        					mode: "index",
+        				},
+        				scales: {
+        					y: {
+        						grid: {
+        							drawBorder: false,
+        							display: false,
+        							drawOnChartArea: false,
+        							drawTicks: false,
+        						},
+        						ticks: {
+        							suggestedMin: 0,
+        							suggestedMax: 600,
+        							beginAtZero: true,
+        							padding: 15,
+        							font: {
+        								size: 14,
+        								family: "Open Sans",
+        								style: "normal",
+        								lineHeight: 2,
+        							},
+        							color: "#fff",
+        						},
+        					},
+        					x: {
+        						grid: {
+        							drawBorder: false,
+        							display: false,
+        							drawOnChartArea: false,
+        							drawTicks: false,
+        						},
+        						ticks: {
+        							display: false,
+        						},
+        					},
+        				},
+        			},
+        		});
+        
+        	});
+        
+        };
+        
+        if (document.querySelector(".chart-line")) {
+        	var chartsLine = document.querySelectorAll(".chart-line");
+        
+        	chartsLine.forEach(function(chart) {
+        		var ctx = chart.getContext("2d");
+        
+        		var gradientStroke1 = ctx.createLinearGradient(0, 230, 0, 50);
+        
+        		gradientStroke1.addColorStop(1, "rgba(203,12,159,0.2)");
+        		gradientStroke1.addColorStop(0.2, "rgba(72,72,176,0.0)");
+        		gradientStroke1.addColorStop(0, "rgba(203,12,159,0)"); //purple colors
+        
+        		var gradientStroke2 = ctx.createLinearGradient(0, 230, 0, 50);
+        
+        		gradientStroke2.addColorStop(1, "rgba(20,23,39,0.2)");
+        		gradientStroke2.addColorStop(0.2, "rgba(72,72,176,0.0)");
+        		gradientStroke2.addColorStop(0, "rgba(20,23,39,0)"); //purple colors
+        
+        		new Chart(ctx, {
+        			type: "line",
+        			data: {
+        				labels: ["Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+        				datasets: [{
+        						label: "Mobile apps",
+        						tension: 0.4,
+        						borderWidth: 0,
+        						pointRadius: 0,
+        						borderColor: "#cb0c9f",
+        						borderWidth: 3,
+        						backgroundColor: gradientStroke1,
+        						fill: true,
+        						data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+        						maxBarThickness: 6,
+        					},
+        					{
+        						label: "Websites",
+        						tension: 0.4,
+        						borderWidth: 0,
+        						pointRadius: 0,
+        						borderColor: "#3A416F",
+        						borderWidth: 3,
+        						backgroundColor: gradientStroke2,
+        						fill: true,
+        						data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+        						maxBarThickness: 6,
+        					},
+        				],
+        			},
+        			options: {
+        				responsive: true,
+        				maintainAspectRatio: false,
+        				plugins: {
+        					legend: {
+        						display: false,
+        					},
+        				},
+        				interaction: {
+        					intersect: false,
+        					mode: "index",
+        				},
+        				scales: {
+        					y: {
+        						grid: {
+        							drawBorder: false,
+        							display: true,
+        							drawOnChartArea: true,
+        							drawTicks: false,
+        							borderDash: [5, 5],
+        						},
+        						ticks: {
+        							display: true,
+        							padding: 10,
+        							color: "#b2b9bf",
+        							font: {
+        								size: 11,
+        								family: "Open Sans",
+        								style: "normal",
+        								lineHeight: 2,
+        							},
+        						},
+        					},
+        					x: {
+        						grid: {
+        							drawBorder: false,
+        							display: false,
+        							drawOnChartArea: false,
+        							drawTicks: false,
+        							borderDash: [5, 5],
+        						},
+        						ticks: {
+        							display: true,
+        							color: "#b2b9bf",
+        							padding: 20,
+        							font: {
+        								size: 11,
+        								family: "Open Sans",
+        								style: "normal",
+        								lineHeight: 2,
+        							},
+        						},
+        					},
+        				},
+        			},
+        		});
+        
+        	});
+        };
+        
+    </script>
+    <hr>
+    
+</body>
+</html>
