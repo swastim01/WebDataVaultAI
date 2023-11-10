@@ -1,6 +1,6 @@
 # DataVaultAI
 
-## Genius, One Block at a Time
+__Genius, One Block at a Time__
 
 By facilitating decentralized AI research collaboration, our project can break down the silos that often exist in AI research. With blockchain technology, we can give individuals more control over their data and how it's used. This is a significant issue in the AI field, as data privacy and ownership concerns have been at the forefront of ethical discussions. Empowering individuals with control over their data can be a game-changer. Our project can speed up AI development by providing a reliable and decentralized source of training data. This can reduce the time and resources needed to train AI models, making AI more accessible to a wider range of projects and researchers, because ultimately, our mission is to strive and update technology, use it to its fullest potential and help the world progress. If we are successful in implementing a token system, it can incentivize users to contribute to the ecosystem. Incentives can attract more data providers, researchers, and developers, which can lead to a robust and vibrant AI ecosystem. This can foster a more diverse and inclusive AI community.
 
